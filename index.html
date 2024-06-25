@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&amp;display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <meta name="keywords" discription="شحن فورتنايت , fortnite charge , فيبوكس">
+    <link rel="stylesheet" href="style.css">
+    <title>AIM store</title>
+</head>
+<body>
+
+    <div class="mobile-nav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <br>
+            <li><a href="https://wa.link/mxanw3">Contact</a></li>
+            <br>
+            <li><a href="support/index.html">Help?</a></li>
+            <br>
+            <li><a href="https://www.facebook.com/profile.php?id=61556158611189&mibextid=ZbWKwL">FaceBook</a></li>
+            <br>
+       </ul>
+   </div>
+        <nav>
+            <h1>AIM <span>store</span></h1>
+              <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="https://wa.link/mxanw3">Contact</a></li>
+                  <li><a href="support/index.html">Help?</a></li>
+                  <li><a href="https://www.facebook.com/profile.php?id=61556158611189&mibextid=ZbWKwL">FaceBook</a></li>
+              </ul>
+              <a onclick="toggleMobileNav()" href="#"><i id="menu-icon" class='bx bx-menu'></i></a>
+        </nav>
+
+        <div class="images">
+              <a href="1000vb/index.html"><img width="250" src="1,000f.jpg"></a>
+              <a href="2800vb/index.html"><img width="250" src="2800f.jpg"> </a>
+              <a href="5000vb/index.html"><img width="250" src="5,000f.jpg"></a>
+              <a href="13500vb/index.html"><img width="250" src="13,500f.jpg"></a>
+              <br>
+              <a href="hozma/index.html"><img id="hozma-img" width="250" src="Hozma image.jpg"></a>
+        </div>
+
+
+        <Script>
+            
+      function toggleMobileNav() {
+        const mobileNav = document.querySelector('.mobile-nav');
+
+        if (mobileNav.style.display === "none" || mobileNav.style.display === "") {
+            mobileNav.style.display = "flex";
+        } else {
+            mobileNav.style.display = "none";
+        }
+    }
+
+    window.toggleMobileNav = toggleMobileNav;
+
+    console.log(4*50)
+        </Script>
+</body>
+</html>
